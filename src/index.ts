@@ -1,5 +1,10 @@
-const addNumber = (a: number, b: number) => {
-    return a + b;
-};
-const result = addNumber(7, 2); //Error
-console.log(result);
+import express, { Request, Response } from 'express';
+
+const app = express();
+
+app.get('/', (req: Request, res: Response) => {
+    return res.send('Hello Node_Store');
+});
+
+const port = process.env.Port || 3000;
+app.listen(port, () => console.log(`Server is listening on port ${port}`));
