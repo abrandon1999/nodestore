@@ -1,0 +1,5 @@
+{
+    "MONGO_URL": "mongodb+srv://cluster0.edquirp.mongodb.net/",
+    "MONGO_USER": "abrandon1999",
+    "MONGO_LOC": "Remote Mongodb"
+}

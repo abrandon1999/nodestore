@@ -1,0 +1,6 @@
+{
+    "MONGO_URL": "mongodb://localhost/store",
+    "MONGO_USER": "",
+    "MONGO_PASS": "",
+    "MONGO_LOC": "Local Mongodb"
+}
